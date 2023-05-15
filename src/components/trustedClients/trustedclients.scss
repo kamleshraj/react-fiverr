@@ -1,0 +1,19 @@
+.trusted-wrapper{
+    background-color: #fafafa;
+    margin-bottom: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    .trusted-container{
+        max-width: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 45px;
+        h2{
+            color: #b5b6ba;
+            font-size: 22px;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.theBestPart-Wrapper{
+    background-color: #f1fdf7;
+    padding: 60px 30px;
+    &.dark{
+        background-color: #0d074d;
+        color: #fff;
+    }
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .best-left{
+        flex: 5;
+        .title{font-size: 30px;margin-bottom: 15px;}
+        p{margin-bottom: 15px;line-height: 1.5;}
+        ul{
+            list-style: none;
+            li{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 15px;
+                h3{
+                    font-size: 17px;
+                    display: flex;
+                    align-items: center;
+                    font-weight: 600;
+                    gap: 5px;
+                    margin-bottom: 10px;
+                }
+                display: flex;
+                flex-direction: column;
+                img{max-width: 20px;}
+            }
+        }
+    }
+    .best-right{
+        flex: 8;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.explore-market{
+    padding: 60px 0;
+    .container{
+        max-width: 1200px;
+        margin: auto;
+        .items{
+            display: flex;
+            flex-wrap: wrap;
+            .item{
+                width: calc(100% / 5);
+                text-align: center;
+                margin: 30px 0px;
+                img{max-width: 40px;}
+            }
+        }
+    }
+}

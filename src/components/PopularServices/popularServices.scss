@@ -1,0 +1,22 @@
+.popular-wrapper{
+    .container{
+        padding: 15px 60px;
+        max-width: 1300px;
+        margin: auto;
+        ul{
+            li{
+                padding: 15px;
+                .catCard {
+                    position: relative;
+                    overflow: hidden;
+                }
+                .card-content {
+                    position: absolute;
+                    top: 30px;
+                    z-index: 111;
+                    left: 30px;
+                }
+            }
+        }
+    }
+}

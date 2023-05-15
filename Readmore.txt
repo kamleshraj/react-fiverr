@@ -1,0 +1,18 @@
+clone website
+>>git clone --single-branch -b 'react-mini' 'repo url'
+
+>>npm i sass
+
+>>npm i eslint --dev
+
+>>npm i react-router-dom
+
+infinite react carousel
+>>npm i infinite-react-carousel
+<Slide slidesToShow={5}, arrowsScroll={5}>
+	{cards.map(card=>(
+	  <CatCard key={card.id} item={card}/>
+	))}
+</Slide>
+
+

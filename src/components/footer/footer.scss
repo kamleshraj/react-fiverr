@@ -1,0 +1,28 @@
+footer{
+    padding: 60px 15px 0 15px;
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        .foot-items{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-bottom: 15px;
+            .foot-item{
+                ul{
+                    list-style: none;
+                    font-size: 14px;
+                    li{
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+        .foot-bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+    }
+}
