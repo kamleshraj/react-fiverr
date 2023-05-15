@@ -9,6 +9,8 @@
                 .catCard {
                     position: relative;
                     overflow: hidden;
+                    max-height: 230px;
+                    img{width: 100%;}
                 }
                 .card-content {
                     position: absolute;
