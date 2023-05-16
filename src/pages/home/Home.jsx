@@ -154,6 +154,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <div className='inspiring-work-made'>
+        <div className='container'>
+        <SectionTitle title={'Inspiring work made on Fiverr'}/>
+        </div>
+      </div>
     </>
   )
 }
